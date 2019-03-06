@@ -37,14 +37,14 @@ margin-top: 10px;
 background-color: #bbff99;
 border-radius: 50%;
 color: indigo;
-border-color: indigo;
+border-color: grey;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .goOption {
   background-color: #bbff99;
   border-radius: 50%;
-  border-color: indigo;
+  border-color: grey;
   color: indigo;
   font-size: 20px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
