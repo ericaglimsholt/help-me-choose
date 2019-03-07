@@ -4,12 +4,12 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  margin-bottom: 210px;
-  background: linear-gradient(to bottom, #ffffcc 0%, #ffff99 100%);
+  margin-bottom: 230px;
+  background: linear-gradient(to bottom, #FFCD60 0%, #D34848 100%);
   }
 
 h1 {
-  font-weight: bolder;
+  font-weight: lighter;
   font-size: 40px;
   letter-spacing: 2px;
   margin-bottom: 0px;
@@ -37,15 +37,40 @@ margin-top: 10px;
 background-color: #bbff99;
 border-radius: 50%;
 color: indigo;
-border-color: grey;
+font-size: 17px;
+border-color: darkred;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
 }
 
-.goOption {
+.addOption:hover {
+background-color: #4f9da6;
+color: white;
+}
+
+.submit {
   background-color: #bbff99;
   border-radius: 50%;
-  border-color: grey;
+  border-color: darkred;
   color: indigo;
-  font-size: 20px;
+  font-size: 28px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.submit:hover {
+  background-color: #4f9da6;
+  color: white;
+}
+
+.resultSection{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
 }
